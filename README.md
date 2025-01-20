@@ -10,5 +10,5 @@ This repository contains a LaTeX script to combine multiple figures efficiently 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/research-figures-miscellaneous.git
+   git clone https://github.com/shuvo-dip/research-figures-miscellaneous.git
    cd research-figures-miscellaneous
