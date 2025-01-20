@@ -13,19 +13,35 @@ This repository contains a LaTeX script to combine multiple figures efficiently 
    git clone https://github.com/shuvo-dip/research-figures-miscellaneous.git
    cd research-figures-miscellaneous
 
+# LaTeX Figure Combination Guide
 
-\documentclass[varwidth, border=0pt]{standalone}: Ensures no extra page margins and outputs only the content.
-\usepackage{graphicx}: Required for handling images.
-% Insert figure commands here: Placeholder for actual figure inclusion.
-\includegraphics[width=1.02\linewidth]{figure1.pdf}: Example of how to include figures.
-The \\ ensures the figures are stacked vertically.
-The resulting document will be borderless and aligned tightly around the figures.
+## Explanation of LaTeX Commands
 
-Replace figure1.pdf and figure2.pdf with your actual figure filenames.
+- `\documentclass[varwidth, border=0pt]{standalone}`:  
+  Ensures no extra page margins and outputs only the content.
 
-1. **Compile using pdflatex:**
+- `\usepackage{graphicx}`:  
+  Required for handling images.
+
+- `% Insert figure commands here`:  
+  Placeholder for actual figure inclusion.
+
+- `\includegraphics[width=1.02\linewidth]{figure1.pdf}`:  
+  Example of how to include figures.
+
+- The `\\` ensures the figures are stacked vertically.
+
+- The resulting document will be borderless and aligned tightly around the figures.
+
+---
+
+## Instructions
+
+1. **Replace figure filenames:**  
+   Replace `figure1.pdf` and `figure2.pdf` with your actual figure filenames.
+
+2. **Compile using pdflatex:**  
+   Run the following command to generate the combined PDF:
+
    ```bash
    pdflatex combine_figures.tex
-
-   
-The output will be a cropped PDF containing the figures arranged as specified.
