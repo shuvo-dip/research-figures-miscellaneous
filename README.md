@@ -1,5 +1,4 @@
-# research-figures-miscellaneous
-Collection of publication quality figures generation
+# Collection of publication quality combined figure generation
 
 
 # LaTeX Template for Combining Figures Without Margins
